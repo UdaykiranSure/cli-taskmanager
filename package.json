@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "node": "^22.9.0"
+  },
+  "name": "taskmanager",
+  "version": "1.0.0",
+  "main": "backend/bin/index.js",
+  "devDependencies": {},
+  "scripts": {
+    "server": "node backend/bin/index.js"
+  },
+
+  "bin": {
+    "tskm": "backend/bin/index.js"
+  },
+  "type":"module",
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
